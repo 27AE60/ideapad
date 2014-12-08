@@ -1,0 +1,17 @@
+{
+  "name": "ideapad",
+  "version": "0.0.0",
+  "description": "Team chat done beautifully!",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.3.12"
+  },
+  "devDependencies": {
+    "sockjs": "^0.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

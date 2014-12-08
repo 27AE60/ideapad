@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain) */
+/* line 5, ../../themes/vendor/sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../themes/vendor/sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 32, ../../themes/vendor/sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../../themes/vendor/sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../../themes/vendor/sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../../themes/vendor/sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 49, ../../themes/vendor/sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 32, ../../themes/vendor/sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../../themes/vendor/sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../../themes/vendor/sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../../themes/vendor/sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 49, ../../themes/vendor/sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Base Configurations imports */
+/* Custom Layout Reset*/
+/* line 69, ../../themes/red_cheese/sass/base/layout.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 73, ../../themes/red_cheese/sass/base/layout.scss */
+body {
+  font-family: 'Lato';
+  font-size: 18px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*Media query break points
+  - @small:320px,
+  - @medium:480px,
+  - @large:768px,
+  - @xtra-large:1024px*/
+/* Fonts Register */
+/* Typography Helpers */
+/* Reset Typeset. */
+/* line 51, ../../themes/red_cheese/sass/base/typography.scss */
+h1 {
+  font-size: 2.6em;
+  line-height: 1.2;
+}
+
+/* line 53, ../../themes/red_cheese/sass/base/typography.scss */
+h2 {
+  font-size: 2.2em;
+  line-height: 1.4;
+}
+
+/* line 55, ../../themes/red_cheese/sass/base/typography.scss */
+h3 {
+  font-size: 1.6em;
+  line-height: 1.4;
+}
+
+/* line 57, ../../themes/red_cheese/sass/base/typography.scss */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+/* line 59, ../../themes/red_cheese/sass/base/typography.scss */
+h5, p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 62, ../../themes/red_cheese/sass/base/typography.scss */
+a, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+/* Color Pallete */
+/* most of colours are from flatuicolors.com */
+/* Pallete helper methods.*/
+/* btn-border color */
+/* navigation background color */
+/* Custom Configurations */
+/* line 10, ../../themes/red_cheese/sass/config.scss */
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ideapad",
+  "version": "0.0.0",
+  "authors": [
+    "Rabi C Shah <rabi.shah@bookmyshow.com>"
+  ],
+  "description": "Prototype, just fiddling around",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "idea",
+    "notebook",
+    "team",
+    "management"
+  ],
+  "license": "MIT"
+}

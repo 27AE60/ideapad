@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="ideapadApp">
+<head>
+  <title>Ideapad</title>
+  <meta name="keywords" content="ideapad, discussion, project management, notes">
+  <meta name="description" content="Team discussions made easy!">
+  <link rel="stylesheet" href="http://192.168.0.100:3000/styles/base.css"/>
+  <link rel="stylesheet" href="http://192.168.0.100:3000/styles/main.css"/>
+</head>
+
+<body>
+  <div id="main-wrapper" ng-controller="ChatCtrl">
+    <p class="idea">Idea: Going Kathmandu next weekend, need a plan?</p>
+
+    <!-- component: chat session -->
+    <div class="block__chat">
+      <ul class="block__chat--panel">
+        <li ng-repeat="message in messages track by $index">{{message.msg}}</li>
+      </ul>
+
+      <form ng-submit="sendMessage()">
+        <input class="block__chat--input" type="text" ng-model="messageText" placeholder="Type your message here" />
+        <!-- <input type="submit" value="Send" /> -->
+      </form>
+    </div>
+
+    <!-- Decisions -->
+    <div class="block__decisions">
+      <h4 class="block__text--heading">Decisions</h4>
+      <ul>
+        <li ng-repeat="decision in decisions track by $index">{{decision.msg}}</li>
+      </ul>
+    </div>
+
+    <!-- Tools  -->
+    <div class="block__tools">
+      <h4 class="block__text--heading">Tools </h4>
+      <ul>
+        <li class="block__tools--list">
+          <h5 class="block__text--sub-heading">Keypoints </h5>
+          <ul class="block__tools--sub-list">
+            <li ng-repeat="keypoint in keypoints track by $index">{{keypoint.msg}}</li>
+          </ul>
+        </li>
+
+        <li class="block__tools--list">
+          <h5 class="block__text--sub-heading">Proposition</h5>
+          <ul class="block__tools--sub-list">
+            <li ng-repeat="proposition in proposals track by $index">{{proposition.msg}}</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- bower dependencies -->
+  <script src="http://cdn.sockjs.org/sockjs-0.3.min.js"></script>
+  <script src="./bower_components/angular/angular.js"></script>
+  <script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
+  <script src='https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js'></script>
+  <!-- custom scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

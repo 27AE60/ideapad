@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #efefef;
+}
+
+input:focus {
+  outline: none;
+}
+
+#main-wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+.idea {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.block {}
+/* chat */
+.block__chat {
+  width: 500px;
+  background-color: #fff;
+}
+.block__chat--panel {
+  height: 400px;
+  border: 1px solid #f8f8f8;
+  padding: 1em;
+  overflow: scroll;
+}
+.block__chat--input {
+  width: 460px;
+  font-size: 1em;
+  padding: 1em;
+}
+
+/* decisions */
+.block__decisions {
+  position: fixed;
+  top: 7%;
+  left: 53%;
+  border: 1px solid #f8f8f8;
+  padding: 1em;
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+/* tools */
+.block__tools {
+  position: fixed;
+  top: 50%;
+  left: 53%;
+  border: 1px solid #f8f8f8;
+  padding: 1em;
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  overflow: scroll;
+}
+.block__tools--list {
+  margin-bottom: 1em;
+}
+.block__tools--sub-list {
+  padding-left: 0.5em;
+}
+
+/* text */
+.block__text {}
+.block__text--heading {
+  width: 100%;
+  margin-bottom: 1em;
+  color: #8B8B8B;
+  border-bottom: 1px solid #EFEFEF
+}
+.block__text--sub-heading {
+  font-weight: 700;
+}
